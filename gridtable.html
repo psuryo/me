@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: olive;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+    }
+    .header {
+      text-align: center;
+      background-color: lightgreen;
+      padding: 20px;
+      border-bottom: 2px solid black;
+    }
+    .content {
+      text-align: center;
+      color: white;
+      background-color: olive;
+      padding: 10px;
+    }
+    .grid-container {
+      width: 100%;
+      table-layout: fixed;
+    }
+    .grid-item {
+      border: 2px solid black;
+      margin: 2px;
+      padding: 10px;
+      vertical-align: top;
+      text-align: center;
+    }
+    .red {
+      background-color: red;
+      color: white;
+    }
+    .green {
+      background-color: green;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <h1>Grid Example</h1>
+    </div>
+    <div class="content">
+      Align three elements side by side
+    </div>
+    <table class="grid-container" cellspacing="5" cellpadding="0">
+      <tr>
+        <td class="grid-item red">
+          <h2>London</h2>
+          <p>London is the capital city of England.</p>
+          <p>London has over 9 million inhabitants.</p>
+        </td>
+        <td class="grid-item green">
+          <img src="https://res.cloudinary.com/gofjords-com/images/w_1024,h_640,c_scale/f_auto,q_auto:eco/v1700208495/Destinations/Oslo/Oslo-opera-house-waterfront-photo-Bob-Engelsen/Oslo-opera-house-waterfront-photo-Bob-Engelsen.jpg?_i=AA" alt="Oslo" width="150">
+          <h2>Oslo</h2>
+          <p>Oslo is the capital city of Norway.</p>
+          <p>Oslo has over 700,000 inhabitants.</p>
+        </td>
+        <td class="grid-item red">
+          <h2>Rome</h2>
+          <p>Rome is the capital city of Italy.</p>
+          <p>Rome has over 4 million inhabitants.</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
